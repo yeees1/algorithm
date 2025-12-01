@@ -31,7 +31,9 @@ vector<int> formHashTable(unordered_map<int, int>& hashTable, vector<int>& input
 int main() {
     vector<int> inputNumbers, answer;
     int len, target;
+    cout << "введите длину массива и искомую сумму " << endl;
     cin >> len >> target;
+    cout << "введите массив " << endl;
     for (int i = 0; i < len; i++) {
         int num;
         cin >> num;
