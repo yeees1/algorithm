@@ -13,7 +13,7 @@ using namespace std;
 
 string formHashTable(string inputString) {
     unordered_map<char, int> hashTable;
-    string answer = "повторяющихся символов нет";
+    string answer = "нет неповторяющихся символов";
     for (auto element : inputString) hashTable[element]++;
     for (auto element : inputString) {
         if (hashTable[element] == 1) {
